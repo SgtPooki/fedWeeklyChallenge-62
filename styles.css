@@ -1,0 +1,20 @@
+.rulesList {
+	list-style: none;
+}
+
+.rulesList-item {
+    margin: 0 10px 0 0;
+}
+
+.rulesList-item_good {
+
+}
+
+.rulesList-item_good:before {
+    content: '✓';
+    color: #009900;
+}
+.rulesList-item_bad:before {
+    content: '✗';
+    color: #bb0000;
+}
